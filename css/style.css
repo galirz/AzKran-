@@ -462,6 +462,7 @@ a:focus {
 }
 
 
+
 /*******************************/
 /******* Section Header ********/
 /*******************************/
@@ -632,6 +633,10 @@ a:focus {
     color: #fdbe33;
     background: #030f27;
 }
+.about-contact{
+    color: white;
+}
+
 
 @media (max-width: 767.98px) {
     .about .about-img {
@@ -2077,7 +2082,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
-    color: #fdbe33;
+    color: #fff;
 }
 
 .footer h2::after {
@@ -2132,17 +2137,17 @@ a:focus {
 
 .footer .footer-social a i {
     font-size: 15px;
-    color: #ffffff;
+    color: #fdbe33;
 }
 
-.footer .footer-social a:hover {
-    background: #fdbe33;
+.footer .footer-social a{
+    /* background: ; */
     border-color: #fdbe33;
 }
 
-.footer .footer-social a:hover i {
+/* .footer .footer-social a:hover i {
     color: #030f27;
-}
+} */
 
 .footer .newsletter .form {
     position: relative;
